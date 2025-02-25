@@ -32,7 +32,7 @@ export const HomePage = () => {
                         <CardJuego key={juego.id} juego={juego}/>
                     ))
                     //cuando se renderiza con html no se usa  {} en react se usa ()
-                    //debe ir key sino da eror , ideal que sea unica por eso se usa con .id
+                    //debe ir key sino da error , ideal que sea unica por eso se usa con .id
                     //llaves permite escribir js en html del componente
                     
                 }
